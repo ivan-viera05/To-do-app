@@ -52,8 +52,8 @@ npm run dev
 ```bash
 cd frontend
 npm install
+npm start
 ```
-
 ## La aplicación estará disponible en http://localhost:3000
 
 ## API Endpoints
