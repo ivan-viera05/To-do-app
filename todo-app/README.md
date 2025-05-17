@@ -16,6 +16,7 @@ Una aplicación web full-stack para gestionar tareas con diferentes prioridades,
 - Node.js (v14 o superior)
 - npm (incluido con Node.js)
 - visual studio code
+
 ## Estructura del Proyecto
 
 todo-app/
@@ -30,23 +31,34 @@ todo-app/
 
 ```bash
 cd backend
-##instalar dependecias:
-npm install
+```
+## instalar dependecias:
 
-##Iniciar el servidor en modo desarrollo:
+```bash
+npm install
+```
+
+## Iniciar el servidor en modo desarrollo:
+
+```bash
 npm run dev
+```
 
 ## El servidor estará disponible en http://localhost:5000
 
-Frontend
-Navegar al directorio del frontend:
+## Frontend
+## Navegar al directorio del frontend:
+
+```bash
 cd frontend
 npm install
-La aplicación estará disponible en http://localhost:3000
+```
 
-API Endpoints
+## La aplicación estará disponible en http://localhost:3000
+
+## API Endpoints
+
 GET /api/tareas - Obtener todas las tareas
 POST /api/tareas - Crear una nueva tarea
 PUT /api/tareas/:id - Actualizar una tarea
 DELETE /api/tareas/:id - Eliminar una tarea
-```
