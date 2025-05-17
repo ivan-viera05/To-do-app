@@ -7,6 +7,7 @@
   display: flex;
   gap: 1rem;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .input {
@@ -17,6 +18,9 @@
   border-radius: 8px;
   background-color: white;
   transition: all 0.3s ease;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .input:focus {
@@ -69,10 +73,30 @@
 @media (max-width: 768px) {
   .inputWrapper {
     flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
   }
   
+  .input,
+  .select,
   .button {
     width: 100%;
-    padding: 1rem;
+    padding: 0.75rem;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .form {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .input,
+  .select,
+  .button {
+    font-size: 0.9rem;
+    padding: 0.6rem;
   }
 }

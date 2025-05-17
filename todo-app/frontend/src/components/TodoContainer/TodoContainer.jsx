@@ -85,7 +85,7 @@ const TodoContainer = () => {
         <div className={styles.content}>
           <div className={styles.summary}>
             <div className={styles.summaryItem}>
-              <span className={styles.summaryNumber}>{tasks.length}</span>
+              <span className={styles.summaryNumber} >{tasks.length}</span>
               <span className={styles.summaryLabel}>Tareas Totales</span>
             </div>
             <div className={styles.summaryItem}>

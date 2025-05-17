@@ -29,7 +29,7 @@ const todoController = {
       const newTodo = {
         id: Date.now(),
         text: req.body.text,
-        priority: req.body.priority || 'normal', // Agregamos la prioridad
+        priority: req.body.priority || 'normal', 
         completed: false,
         createdAt: new Date().toLocaleDateString('es-ES', {
           year: 'numeric',

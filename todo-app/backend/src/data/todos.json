@@ -1,13 +1,5 @@
 [
   {
-    "id": 1747494288661,
-    "text": "test de tarea prioridad bajo",
-    "priority": "baja",
-    "completed": true,
-    "createdAt": "17 may 2025, 12:04",
-    "completedAt": "17 may 2025, 19:25"
-  },
-  {
     "id": 1747494301130,
     "text": "test de tarea prioridad normal",
     "priority": "normal",
@@ -16,11 +8,11 @@
     "completedAt": null
   },
   {
-    "id": 1747494320235,
-    "text": "test de tarea prioridad Alta",
-    "priority": "alta",
+    "id": 1747524469758,
+    "text": "pepepepepeppeppepe",
+    "priority": "normal",
     "completed": false,
-    "createdAt": "17 may 2025, 12:05",
+    "createdAt": "17 may 2025, 20:27",
     "completedAt": null
   }
 ]

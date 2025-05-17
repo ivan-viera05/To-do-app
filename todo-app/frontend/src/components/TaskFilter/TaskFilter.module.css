@@ -23,3 +23,21 @@
 .filterSelect:hover {
   border-color: #3498db;
 }
+
+@media (max-width: 768px) {
+  .filterContainer {
+    margin-bottom: 0.75rem;
+  }
+
+  .filterSelect {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .filterSelect {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+}
