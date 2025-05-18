@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import TodoForm from '../TodoForm/TodoForm';
-import TodoList from '../TodoList/TodoList';
+import TodoForm from '../TaskForm/TodoForm';
+import TodoList from '../TaskList/TodoList';
 import TaskFilter from '../TaskFilter/TaskFilter';
 import { getTasks, createTask, updateTask, deleteTask } from '../../services/api';
 import styles from './TodoContainer.module.css';
