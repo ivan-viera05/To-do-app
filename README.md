@@ -15,11 +15,11 @@ Una aplicación web full-stack para gestionar tareas con diferentes prioridades,
 
 - Node.js (v14 o superior)
 - npm (incluido con Node.js)
-- visual studio code
+- Visual Studio Code
 
 ## Estructura del Proyecto
 
-todo-app/
+
 ├── backend/ # Servidor Express
 └── frontend/ # Aplicación React
 
