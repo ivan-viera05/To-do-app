@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './TodoList.module.css';
+import styles from './TaskList.module.css';
 
 const TodoList = ({ tasks, onToggleTask, onDeleteTask }) => {
   if (tasks.length === 0) {

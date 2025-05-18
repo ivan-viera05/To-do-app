@@ -3,16 +3,24 @@
     "id": 1747526919678,
     "text": "Prueba bajo",
     "priority": "baja",
-    "completed": false,
+    "completed": true,
     "createdAt": "17 may 2025, 21:08",
-    "completedAt": null
+    "completedAt": "18 may 2025, 13:50"
   },
   {
     "id": 1747526925592,
     "text": "prueba normal",
     "priority": "normal",
-    "completed": false,
+    "completed": true,
     "createdAt": "17 may 2025, 21:08",
-    "completedAt": null
+    "completedAt": "18 may 2025, 13:50"
+  },
+  {
+    "id": 1747587057563,
+    "text": "prueba de prioridad alta",
+    "priority": "alta",
+    "completed": true,
+    "createdAt": "18 may 2025, 13:50",
+    "completedAt": "18 may 2025, 13:51"
   }
 ]

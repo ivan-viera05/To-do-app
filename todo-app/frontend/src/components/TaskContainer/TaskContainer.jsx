@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import TodoForm from '../TaskForm/TodoForm';
-import TodoList from '../TaskList/TodoList';
+import TaskForm from '../TaskForm/TaskForm';
+import TaskList from '../TaskList/TaskList';
 import TaskFilter from '../TaskFilter/TaskFilter';
 import { getTasks, createTask, updateTask, deleteTask } from '../../services/api';
-import styles from './TodoContainer.module.css';
-
+import styles from './TaskContainer.module.css';
 // Componente principal que maneja la logica de las tareas
 const TodoContainer = () => {
   const [tasks, setTasks] = useState([]);
@@ -96,12 +95,12 @@ const TodoContainer = () => {
             </div>
           </div>
           <div className={styles.todoSection}>
-            <TodoForm onAddTask={handleAddTask} />
+            <TaskForm onAddTask={handleAddTask} />
             <TaskFilter 
               activeFilter={activeFilter}
               onFilterChange={setActiveFilter}
             />
-            <TodoList 
+            <TaskList 
               tasks={getFilteredTasks()}
               onToggleTask={handleToggleTask}
               onDeleteTask={handleDeleteTask}
